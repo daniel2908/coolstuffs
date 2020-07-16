@@ -45,7 +45,7 @@ bool prime;
             int b=0;
             img << r << " " << g  << " " << b << endl;
             }            
-            if (num % 3 == 0 && num !=3)
+            else if (num % 3 == 0 && num !=3)
             {
             int r=0;
             int g=0;
