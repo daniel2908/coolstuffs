@@ -4,7 +4,7 @@ using namespace std;
 
 const int width= 1920, height = 1080;
 
-
+// this checks if the number in question is a prime.
 bool isPrime(int num)
 {
     bool prime=true;
