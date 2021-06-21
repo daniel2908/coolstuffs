@@ -7,16 +7,14 @@ const int width= 1920, height = 1080;
 // this checks if the number in question is a prime.
 bool isPrime(int num)
 {
-    bool prime=true;
     for(int i = 2; i <= num / 2; i++) 
     {
        if(num % i == 0) 
        {
-          prime = false;
-          break;
+            return false;
        }
     }
-    return prime;
+    return true
 }
 
 
